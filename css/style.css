@@ -1,0 +1,723 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: OpenSans-ExtraBold;
+    src: url(../fonts/open-sans/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family: OpenSans;
+    src: url(../fonts/open-sans/OpenSans-Regular.ttf)
+}
+.full-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+        
+}
+.full-wrapper{
+    position: relative;
+    width: 100%;
+    background-color: #02918c;
+}
+
+/*<!---manu part start--->*/
+
+
+ .slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  } 
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+.wrapper{
+    width: 1160px;
+    height: 60px;  
+    margin: 0px auto;
+}
+.wrapper .logo{
+   width: 230px;
+    line-height: 60px;
+    padding-left: 70px;
+    float: left;
+}
+.wrapper .manubar{
+    width: 930px;
+    height: 60px;
+    float: left;
+}
+.manubar ul{
+    float: right;
+}
+.manubar ul li{
+    float: left;
+}
+.manubar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: OpenSans-ExtraBold;
+    padding: 0 20px;
+    line-height: 60px;
+    transition: all linear 0.3s;
+}
+.manubar ul li a:hover{
+    color:#81b707;
+}
+.manubar ul li a.active{
+    color:#81b707;
+}
+.manubar ul li a{}
+/*<!---manu part End--->*/
+
+.clr{
+    clear: both;
+}
+
+/*<!---banner part start--->*/
+.banner_bg{
+    background: url(../images/LIO.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner{
+    height: 729px;
+}
+.banner h3{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 200px;
+    font-family: OpenSans-ExtraBold;
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+.banner h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 68px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 20px;
+}
+.banner p{
+    text-align: center;
+    color: aliceblue;
+    font-family: OpenSans-ExtraBold;
+}
+.banner img{
+    height: 25px;
+    width: 107px;
+    margin-left: 520px;
+    margin-bottom: 53px;
+    margin-top: 53px;  
+}
+.banner a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #f3fc0d;
+    font-family: OpenSans-ExtraBold;
+    padding: 20px 40px;
+    transition: all linear 0.3s;
+    margin-left: 485px;
+}
+.banner a:hover{
+    color: black;
+    background: #f3fc0d;
+}
+/*<!---banner part End--->*/
+
+/*<!---About part start--->*/
+.about_bg{
+    background-color: #ffffff;
+}
+.about{
+    height: 350px;
+}
+.about h1{
+    color: #02918c;
+    font-family: OpenSans-ExtraBold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 99px;
+}
+.about img{
+    width: 140px;
+    height: 15px;
+    margin-left: 505px;
+    margin-top: 33px;
+    margin-bottom: 35px;
+}
+.about p{
+    text-align: center;
+    font-family: OpenSans;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.about strong{
+    font-family: OpenSans-ExtraBold;
+}
+/*<!---About part End--->*/
+
+/*<!---service part start--->*/
+.service_bg{
+    background-color: #fff;
+}
+.service{
+    height: 250px;
+}
+.service .service1{
+    width: 25%;
+    height: 250px;
+    float: left;
+    border-right: 1px solid #7e8287;
+}
+.service .service1 a i{
+    color: #02918c;
+    font-size: 35px;
+    margin-left: 47%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.service .service1 h4{
+    color: #7e8287;
+    text-align: center;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 30px;
+}
+.service .service1 p{
+    color: #7e8287;
+    font-family: OpenSans;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.service .service2{
+    width: 25%;
+    height: 250px;
+    float: left;
+    border-right: 1px solid #7e8287;
+}
+.service .service2 a i{
+    color: #02918c;
+    font-size: 35px;
+    margin-left: 47%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.service .service2 h4{
+    color: #7e8287;
+    text-align: center;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 30px;
+}
+.service .service2 p{
+    color: #7e8287;
+    font-family: OpenSans;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.service .service3{
+    width: 25%;
+    height: 250px;
+    float: left;
+    border-right: 1px solid #7e8287;
+}
+.service .service3 a i{
+    color: #02918c;
+    font-size: 35px;
+    margin-left: 47%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.service .service3 h4{
+    color: #7e8287;
+    text-align: center;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 30px;
+}
+.service .service3 p{
+    color: #7e8287;
+    font-family: OpenSans;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.service .service4{
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.service .service4 a i{
+    color: #02918c;
+    font-size: 35px;
+    margin-left: 47%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.service .service4 h4{
+    color: #7e8287;
+    text-align: center;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 30px;
+}
+.service .service4 p{
+    color: #7e8287;
+    font-family: OpenSans;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*<!---service part End--->*/
+
+
+.serv_bg{
+    background-color: #fff;
+    height: 100px;
+}
+/*<!---servi part start--->*/
+
+.servi_bg{
+    height: 720px;
+    background: url(../images/service.JPG)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.servi{
+    height: 720px;
+}
+.servi .servi1{
+    width: 50%;
+    height: 720px;
+    float: left;
+}
+.servi .servi1 .des1{
+    height: 300px;
+}
+.servi .servi1 .des1 h2{
+    font-family: OpenSans-ExtraBold;
+    font-size: 46px;
+    color: #02918c;
+    padding-top: 74px;
+    padding-left: 7px;
+    padding-bottom: 35px;
+}
+.servi .servi1 .des1 img{
+    width: 107px;
+    padding-left: 7px;
+    padding-bottom: 30px;
+}
+.servi .servi1 .des1 p{
+    color: #02918c;
+    padding-left: 7px;
+    padding-right: 100px;
+    font-family: OpenSans;
+    font-size: 16px;
+}
+.servi .servi1 .des2{
+    height: 420px;
+}
+.servi .servi1 .des2 .sicon1{
+    width: 290px;
+    height: 210px;
+    float: left;
+}
+.servi .servi1 .des2 .sicon2{   
+    width: 290px;
+    height: 210px;
+    float: left;
+}
+.servi .servi1 .des2 .sicon3{
+    width: 290px;
+    height: 210px;
+    float: left;
+}
+.servi .servi1 .des2 .sicon4{
+    width: 290px;
+    height: 210px;
+    float: left;
+}
+.servi .servi1 .des2 .sicon1 h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 23px;
+    padding-left: 15px;
+}
+.servi .servi1 .des2 .sicon1 i{
+    font-size: 34px;
+    color: #02918c;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.servi .servi1 .des2 .sicon1 p{
+    color: #7e8287;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-top: 0px;
+    font-family: OpenSans;
+    
+}
+.servi .servi1 .des2 .sicon2 i{
+    font-size: 34px;
+    color: #02918c;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.servi .servi1 .des2 .sicon2 p{
+    color: #7e8287;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-top: 0px;
+    font-family: OpenSans;
+}
+.servi .servi1 .des2 .sicon2 h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 23px;
+    padding-left: 15px;
+}
+.servi .servi1 .des2 .sicon3 h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 23px;
+    padding-left: 15px;
+}
+.servi .servi1 .des2 .sicon3 i{
+    font-size: 34px;
+    color: #02918c;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.servi .servi1 .des2 .sicon3 p{
+    color: #7e8287;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-top: 0px;
+    font-family: OpenSans;
+}
+.servi .servi1 .des2 .sicon4 h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-family: OpenSans-ExtraBold;
+    padding-bottom: 23px;
+    padding-left: 15px;
+}
+.servi .servi1 .des2 .sicon4 i{
+    font-size: 34px;
+    color: #02918c;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.servi .servi1 .des2 .sicon4 p{
+    color: #7e8287;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-top: 0px;
+    font-family: OpenSans;
+}
+.servi .servi2{
+    width: 50%;
+    height: 720px;
+    float: left;
+}
+/*<!---servi part End--->*/
+
+/*<!---work part start--->*/
+.work_bg{
+    background-color: #fff;
+}
+.work{
+    height: 350px;
+}
+.work h1{
+    color: #02918c;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 110px;
+    font-family: OpenSans-ExtraBold;
+    text-transform: uppercase;
+}
+.work img{
+    width: 108px;
+    margin-left: 45%;
+    margin-bottom: 31px;
+    margin-top: 32px;
+}
+.work p{
+    text-align: center;
+    font-size: 16px;
+    color: #7e8287;
+    font-family: OpenSans;
+}
+/*<!---work part End--->*/
+
+/*<!---photo part start--->*/
+.photo_bg{
+    height: 474px;
+}
+.photo_bg .photo1{
+    width: 25%;
+    height: 237px;
+    background: url(../images/1.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo1:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo2{
+    width: 25%;
+    height: 237px;
+    background: url(../images/2.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo2:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo3{
+    width: 25%;
+    height: 237px;
+    background: url(../images/3.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo3:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo4{ 
+    width: 25%;
+    height: 237px;
+    background: url(../images/4.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo4:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo5{ 
+    width: 25%;
+    height: 237px;
+    background: url(../images/5.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo5:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo6{ 
+    width: 25%;
+    height: 237px;
+    background: url(../images/6.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo6:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo7{ 
+    width: 25%;
+    height: 237px;
+    background: url(../images/7.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo7:hover{
+    transform: scale(1.5);
+}
+.photo_bg .photo8{ 
+    width: 25%;
+    height: 237px;
+    background: url(../images/8.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: all linear 0.3s;
+}
+.photo_bg .photo8:hover{
+    transform: scale(1.5);
+}
+/*<!---photo part End--->*/
+
+/*<!---Contact part Start--->*/
+.contact_bg{
+    background-color: #fff;
+}
+.contact{
+    height: 332px;
+}
+.contact h1{
+    color: #02918c;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 110px;
+    font-family: OpenSans-ExtraBold;
+    text-transform: uppercase;
+}
+.contact img{
+    width: 108px;
+    margin-left: 45%;
+    margin-bottom: 31px;
+    margin-top: 32px;
+}
+.contact p{
+    text-align: center;
+    font-size: 16px;
+    color: #7e8287;
+    font-family: OpenSans;
+}
+/*<!---Contact part End--->*/
+
+/*<!---Register part Start--->*/
+.register_bg{
+    background: #1c1616;
+    background: url(../images/back.jpg) no-repeat center;
+    background-size: cover;
+}   
+.register{
+    height: 565px;
+    background-image: url(../images/register.jpg) no-repeat center;
+    background-size: cover;
+}  
+.register .content{
+    width: 560px;
+    height: 565px;
+    margin: 0px auto;
+} 
+.register form .field{
+    width: 100%;
+    border: 1px solid #7e8287;
+    color: white;
+    background: none;
+    margin-top: 40px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: OpenSans;   
+} 
+.register form textarea{
+    height: 160px !important;
+    padding-top: 20px;
+    font-family: OpenSans;
+    margin-bottom: 20px;
+}
+.register form .send{
+    color: #7e8287;
+    border: 1px solid #7e8287;
+    background: none;
+    padding: 20px 80px;
+    margin-left: 30%;
+}
+.register form .send:hover{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/*<!---Register part End--->*/
+
+
+ /*<!---Footer part Start--->*/
+.footer_bg{
+    height: 70px;
+    background-color: #000;
+}
+.footer p{
+    font-family: OpenSans; 
+    color: #7e8287;
+    text-align: center;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+/*<!---Footer part End--->*/
+    
+
+
+
